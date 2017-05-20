@@ -1,0 +1,628 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Tina A - Communication Quiz - Take the Quiz</title>	
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			body {
+				background: none;
+				background-color:  #57BC90;
+			}
+			
+			@media screen and (max-width: 736px) {
+			body {
+				background-color: #222; 
+			}
+		</style>
+	</head>
+	<body>
+		<h1 id = "quizheader">What's Your Communication Style?</h1>
+		<!-- Quiz form -->		
+		<form action="results.php" method="post" id="quiz">
+			<div class="container">
+	
+				<!-- Question 1 -->
+				<div id = "quest1">
+				<div class = "number">Question 1 of 20</div>
+				<h2>At a large social gathering, which of the following are you most likely to do?</h2>
+					<ul>
+						<li>
+    						<input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+    						<label for="question-1-answers-A">Interact with many different people-- including strangers</label>
+							<div class="check"><div class="inside"></div></div>
+  						</li>
+  						<li>
+    						<input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+    						<label for="question-1-answers-B">Talk one-on-one mostly with people you already know</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>
+  						<li>
+    						<input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+    						<label for="question-1-answers-C">Use the opportunity to make important contacts</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>
+						<li>
+            				<input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+           			 		<label for="question-1-answers-D">Leave as soon as it is polite to do so</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>	
+					</ul>	
+				</div>	
+			
+				<!-- Question 2 -->	
+				<div id = "quest2">
+					<div class = "number">Question 2 of 20</div>
+					<h2>When you do usually arrive for a meeting?</h2>
+					<ul>
+						<li>
+    						<input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
+        					<label for="question-2-answers-A">A bit late; you try to sneak in the back without being noticed</label>
+							<div class="check"><div class="inside"></div></div>
+  						</li>
+  					<li>
+						<input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+            			<label for="question-2-answers-B">Purposely a bit late; you like to get there when things have started happening</label>
+    					<div class="check"><div class="inside"></div></div>
+  					</li>
+  					<li>
+    		    		<input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+            			<label for="question-2-answers-C">Right on time; you feel impatient if the meeting starts late</label>
+    					<div class="check"><div class="inside"></div></div>
+  					</li>
+					<li>
+    					<input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
+            			<label for="question-2-answers-D">Early; you want to be ready and organized when the meeting starts</label>
+    					<div class="check"><div class="inside"></div></div>
+  					</li>	
+				</ul>	
+			</div>		
+			<!-- Question 3 -->	
+			<div id = "quest3">
+				<div class = "number">Question 3 of 20</div>
+				<h2>Of these four personality traits, which do you consider your strongest?</h2>
+				<ul>
+					<li>
+    					<input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
+        				<label for="question-3-answers-A">Compassion</label>
+						<div class="check"><div class="inside"></div></div>
+  					</li>
+  					<li>
+						<input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
+						<label for="question-3-answers-B">Assertiveness</label>
+						<div class="check"><div class="inside"></div></div>
+  					</li>
+  					<li>
+            			<input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
+            			<label for="question-3-answers-C">Imagination</label>
+						<div class="check"><div class="inside"></div></div>
+  					</li>
+					<li>
+            			<input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
+            			<label for="question-3-answers-D">Persistence</label>
+    					<div class="check"><div class="inside"></div></div>
+  					</li>	
+				</ul>	
+			</div>			
+			<!-- Question 4 -->	
+			<div id = "quest4">
+				<div class = "number">Question 4 of 20</div>
+				<h2>The adjectives that most closely describe you are: </h2>
+				<ul>
+					<li>
+        				<input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
+        				<label for="question-4-answers-A">Sensible and frugal</label>
+						<div class="check"><div class="inside"></div></div>
+  					</li>
+  					<li>
+            			<input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" />
+            			<label for="question-4-answers-B">Rational and quick-witted</label>
+    					<div class="check"><div class="inside"></div></div>
+  					</li> 
+  					<li>
+            			<input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
+            			<label for="question-4-answers-C">Sensitive and reliable</label>
+    					<div class="check"><div class="inside"></div></div>
+  					</li>
+					<li>
+						<input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
+						<label for="question-4-answers-D">Creative and fiery</label>
+						<div class="check"><div class="inside"></div></div>
+  					</li>	
+				</ul>	
+			</div>			
+			<!-- Question 5 -->	
+			<div id = "quest5">
+				<div class = "number">Question 5 of 20</div>
+				<h2>Which appeals to you the most?</h2>
+				<ul>
+					<li>
+						<input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
+						<label for="question-5-answers-A">Taking action on a calculated risk</label>
+						<div class="check"><div class="inside"></div></div>
+  					</li>
+					<li>
+						<input type="radio" name="question-5-answers" id="question-5-answers-B" value="B" />
+						<label for="question-5-answers-B">Creating harmonious human relationships</label>
+						<div class="check"><div class="inside"></div></div>
+  					</li>
+  					<li>
+						<input type="radio" name="question-5-answers" id="question-5-answers-C" value="C" />
+						<label for="question-5-answers-C">Discovering the secret behind a complex mystery</label>
+						<div class="check"><div class="inside"></div></div>
+  					</li>
+					<li>
+						<input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
+						<label for="question-5-answers-D">Going to an exciting social event</label>
+						<div class="check"><div class="inside"></div></div>
+		  			</li>	
+				</ul>	
+			</div>			
+			<!-- Question 6 -->	
+			<div id = "quest6">
+				<div class = "number">Question 6 of 20</div>
+				<h2>How do you feel about new and non-routine interaction with others?</h2>
+				<ul>
+					<li>
+						<input type="radio" name="question-6-answers" id="question-6-answers-A" value="A" />
+						<label for="question-6-answers-A">Stimulated and energized, so you stay as long as possible</label>
+						<div class="check"><div class="inside"></div></div>
+  					</li>
+  					<li>
+           				<input type="radio" name="question-6-answers" id="question-6-answers-B" value="B" />
+           				<label for="question-6-answers-B">Revitalized, but only if you have a special connection with someone</label>
+    					<div class="check"><div class="inside"></div></div>
+  					</li>
+  					<li>
+            			<input type="radio" name="question-6-answers" id="question-6-answers-C" value="C" />
+            			<label for="question-6-answers-C">Depleted, and you are not afraid to let people know it</label>
+    					<div class="check"><div class="inside"></div></div>
+  					</li>
+					<li>
+            			<input type="radio" name="question-6-answers" id="question-6-answers-D" value="D" />
+            			<label for="question-6-answers-D">Depleted, so you quietly slip away when no one is watching</label>
+    					<div class="check"><div class="inside"></div></div>
+  					</li>	
+				</ul>	
+			</div>	
+			<!-- Question 7 -->	
+			<div id = "quest7">
+				<div class = "number">Question 7 of 20</div>
+				<h2>When doing group projects, what is most important to you?</h2>
+				<ul>
+					<li>
+           				<input type="radio" name="question-7-answers" id="question-7-answers-A" value="A" />
+           				<label for="question-7-answers-A">Creating relationships with people</label>
+						<div class="check"><div class="inside"></div></div>
+  					</li>
+  					<li>
+    		   			<input type="radio" name="question-7-answers" id="question-7-answers-B" value="B" />
+           				<label for="question-7-answers-B">Sorting out who is playing what role in the project</label>
+    					<div class="check"><div class="inside"></div></div>
+  					</li>
+  					<li>
+           				<input type="radio" name="question-7-answers" id="question-7-answers-C" value="C" />
+           				<label for="question-7-answers-C">Organizing the way the project is done</label>
+						<div class="check"><div class="inside"></div></div>
+  					</li>
+					<li>
+            			<input type="radio" name="question-7-answers" id="question-7-answers-D" value="D" />
+            			<label for="question-7-answers-D">Making sure the process of doing it is fun and exciting</label>
+    					<div class="check"><div class="inside"></div></div>
+  					</li>	
+				</ul>	
+			</div>	
+			<!-- Question 8 -->	
+			<div id = "quest8">
+				<div class = "number">Question 8 of 20</div>
+				<h2>Which description most fits you?</h2>
+				<ul>
+					<li>
+           				<input type="radio" name="question-8-answers" id="question-8-answers-A" value="A" />
+           				<label for="question-8-answers-A">Hard-working and ambitious</label>
+					 	<div class="check"><div class="inside"></div></div>
+  					</li>
+  
+  					<li>
+           				<input type="radio" name="question-8-answers" id="question-8-answers-B" value="B" />
+          				<label for="question-8-answers-B">Animated and gregarious</label>
+    		   			<div class="check"><div class="inside"></div></div>
+  					</li>
+  
+  					<li>
+           				<input type="radio" name="question-8-answers" id="question-8-answers-C" value="C" />
+           				<label for="question-8-answers-C">Focused and efficient</label>
+    		   			<div class="check"><div class="inside"></div></div>
+  					</li>
+		
+					<li>
+           				<input type="radio" name="question-8-answers" id="question-8-answers-D" value="D" />
+           				<label for="question-8-answers-D">Cooperative and gentle</label>
+    		   			<div class="check"><div class="inside"></div></div>
+  					</li>	
+				</ul>	
+			</div>	
+	
+			<!-- Question 9 -->	
+			<div id = "quest9">
+				<div class = "number">Question 9 of 20</div>
+				<h2>When working which do you prefer most of the time?</h2>
+				<ul>
+					<li>
+                    	<input type="radio" name="question-9-answers" id="question-9-answers-A" value="A" />
+                    	<label for="question-9-answers-A">To do your job quietly on your own</label>
+						<div class="check"><div class="inside"></div></div>
+  					</li>
+  
+  					<li>
+                        <input type="radio" name="question-9-answers" id="question-9-answers-B" value="B" />
+                        <label for="question-9-answers-B">To be an integral part of a team working together</label>
+    					<div class="check"><div class="inside"></div></div>
+  					</li>
+  
+  					<li>
+                        <input type="radio" name="question-9-answers" id="question-9-answers-C" value="C" />
+                        <label for="question-9-answers-C">To influence a team in new and creative directions</label>
+    					<div class="check"><div class="inside"></div></div>
+  					</li>
+		
+					<li>
+                   		<input type="radio" name="question-9-answers" id="question-9-answers-D" value="D" />
+                        <label for="question-9-answers-D">To be the leader and structure-maker for the team</label>
+    					<div class="check"><div class="inside"></div></div>
+  					</li>	
+				</ul>	
+			</div>	
+	
+			<!-- Question 10 -->	
+			<div id = "quest10">
+				<div class = "number">Question 10 of 20</div>
+				<h2>Which is most admirable?</h2>
+				<ul>
+					<li>
+						<input type="radio" name="question-10-answers" id="question-10-answers-A" value="A" />
+						<label for="question-10-answers-A">The ability to organize and be methodical</label>
+						<div class="check"><div class="inside"></div></div>
+  					</li>
+  
+  					<li>
+                   		<input type="radio" name="question-10-answers" id="question-10-answers-B" value="B" />
+                        <label for="question-10-answers-B">The ability to take charge in a chaotic situation</label>
+    					<div class="check"><div class="inside"></div></div>
+  					</li>
+  
+  					<li>
+                        <input type="radio" name="question-10-answers" id="question-10-answers-C" value="C" />
+                        <label for="question-10-answers-C">The ability to motivate others to succeed</label>
+    					<div class="check"><div class="inside"></div></div>
+  					</li>
+		
+					<li>
+    	 				<input type="radio" name="question-10-answers" id="question-10-answers-D" value="D" />
+                        <label for="question-10-answers-D">The ability to make people feel comfortable and included</label>
+    					<div class="check"><div class="inside"></div></div>
+  					</li>	
+				</ul>	
+			</div>	
+	
+			<!-- Question 11 -->	
+			<div id = "quest11">
+				<div class = "number">Question 11 of 20</div>
+				<h2>In terms of comedy, what do you enjoy the most?</h2>
+				<ul>
+					<li>
+                        <input type="radio" name="question-11-answers" id="question-11-answers-A" value="A" />
+                        <label for="question-11-answers-A">A heartwarming, funny story</label>
+						<div class="check"><div class="inside"></div></div>
+  					</li>
+  
+  					<li>
+                      	<input type="radio" name="question-11-answers" id="question-11-answers-B" value="B" />
+                        <label for="question-11-answers-B">A good joke</label>
+    					<div class="check"><div class="inside"></div></div>
+  					</li>
+  
+  					<li>
+                      		<input type="radio" name="question-11-answers" id="question-11-answers-C" value="C" />
+                        	<label for="question-11-answers-C">Physical comedy: movement, voice, costume, etc.</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>
+		
+						<li>
+                        	<input type="radio" name="question-11-answers" id="question-11-answers-D" value="D" />
+                       		<label for="question-11-answers-D">A witty one-liner, pun, or wordplay.</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>	
+					</ul>	
+				</div>	
+				
+				<!-- Question 12 -->	
+				<div id = "quest12">
+					<div class = "number">Question 12 of 20</div>
+					<h2>If a conflict develops between you and a friend, what is your first reaction?</h2>
+					<ul>
+						<li>
+         					<input type="radio" name="question-12-answers" id="question-12-answers-A" value="A" />
+               		         <label for="question-12-answers-A">To make your position on things clear and understood</label>
+							<div class="check"><div class="inside"></div></div>
+  						</li>
+  
+  						<li>
+    	                	<input type="radio" name="question-12-answers" id="question-12-answers-B" value="B" />
+                        	<label for="question-12-answers-B">To make sure the relationship doesn't get damaged</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>
+  
+  						<li>
+                	    	<input type="radio" name="question-12-answers" id="question-12-answers-C" value="C" />
+                        	<label for="question-12-answers-C">To avoid your friend for awhile</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>
+		
+						<li>
+    	    				<input type="radio" name="question-12-answers" id="question-12-answers-D" value="D" />
+                        	<label for="question-12-answers-D">To find a compromise where you both get at least part of what you want</label>
+    						<div class="check"><div class="inside"></div></div>
+						</li>	
+					</ul>	
+				</div>		
+
+				<!-- Question 13 -->	
+				<div id = "quest13">
+					<div class = "number">Question 13 of 20</div>
+					<h2>If you were famous in your field, which career would most suit you?</h2>
+					<ul>
+  						<li>
+                        	<input type="radio" name="question-13-answers" id="question-13-answers-A" value="A" />
+                        	<label for="question-13-answers-A">Movie star</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>
+  
+ 	 					<li>
+    	                    <input type="radio" name="question-13-answers" id="question-13-answers-B" value="B" />
+        	                <label for="question-13-answers-B">Head of a company</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>
+		
+						<li>
+        	  				<input type="radio" name="question-13-answers" id="question-13-answers-C" value="C" />
+            	            <label for="question-13-answers-C">Inventor</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>	
+			
+						<li>
+				            <input type="radio" name="question-13-answers" id="question-13-answers-D" value="D" />
+                	        <label for="question-13-answers-D">Humanitarian</label>
+			    			<div class="check"><div class="inside"></div></div>
+						</li>		
+					</ul>	
+				</div>		
+
+				<!-- Question 14 -->	
+				<div id = "quest14">
+					<div class = "number">Question 14 of 20</div>
+					<h2>Which of the following rules you most?</h2>
+					<ul>
+						<li>
+    		   				<input type="radio" name="question-14-answers" id="question-14-answers-A" value="A" />
+                        	<label for="question-14-answers-A">Your heart</label>
+							<div class="check"><div class="inside"></div></div>
+  						</li>
+  
+  						<li>
+                        	<input type="radio" name="question-14-answers" id="question-14-answers-B" value="B" />
+                        	<label for="question-14-answers-B">Your head</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>
+  
+  						<li>
+                        	<input type="radio" name="question-14-answers" id="question-14-answers-C" value="C" />
+                        	<label for="question-14-answers-C">Your wallet</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>
+		
+						<li>
+                       		<input type="radio" name="question-14-answers" id="question-14-answers-D" value="D" />
+                        	<label for="question-14-answers-D">Your instinct</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>	
+					</ul>	
+				</div>		
+
+				<!-- Question 15 -->	
+				<div id = "quest15">
+					<div class = "number">Question 15 of 20</div>
+					<h2>What style of entertainment do you most enjoy watching?</h2>
+					<ul>
+						<li>
+                        	<input type="radio" name="question-15-answers" id="question-15-answers-A" value="A" />
+                       		<label for="question-15-answers-A">Something warm and friendly</label>
+							<div class="check"><div class="inside"></div></div>
+  						</li>
+  
+  						<li>
+                        	<input type="radio" name="question-15-answers" id="question-15-answers-B" value="B" />
+                        	<label for="question-15-answers-B">Something quirky and intellectual</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>
+  
+  						<li>
+                        <input type="radio" name="question-15-answers" id="question-15-answers-C" value="C" />
+                        <label for="question-15-answers-C">Something political or satirical</label>
+    					<div class="check"><div class="inside"></div></div>
+  						</li>
+		
+						<li>
+                       	 	<input type="radio" name="question-15-answers" id="question-15-answers-D" value="D" />
+                        	<label for="question-15-answers-D">Something wild, outrageous, or fun</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>	
+					</ul>	
+				</div>	
+
+				<!-- Question 16 -->	
+				<div id = "quest16">
+					<div class = "number">Question 16 of 20</div>
+					<h2>If you suddenly have some spare time on a weekend, what do you usually most want to do?</h2>
+					<ul>
+						<li>
+                        	<input type="radio" name="question-16-answers" id="question-16-answers-A" value="A" />
+                        	<label for="question-16-answers-A">Contact several friends and see if there is something fun going on</label>
+							<div class="check"><div class="inside"></div></div>
+  						</li>
+  
+  						<li>
+                        	<input type="radio" name="question-16-answers" id="question-16-answers-B" value="B" />
+                        	<label for="question-16-answers-B">Have some quality time with one or a just a few people</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>
+			
+			  			<li>
+                        	<input type="radio" name="question-16-answers" id="question-16-answers-C" value="C" />
+                        	<label for="question-16-answers-C">Get a number of important things done on your <i>to do</i> list</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>
+		
+						<li>
+                       		<input type="radio" name="question-16-answers" id="question-16-answers-D" value="D" />
+                        	<label for="question-16-answers-D">Focus your energy on one specific hobby or project</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>	
+					</ul>	
+				</div>		
+	
+			<!-- Question 17 -->	
+				<div id = "quest17">
+					<div class = "number">Question 17 of 20</div>
+					<h2>You want to buy a special gift for a new friend that you don't know very well. You are most likely to:</h2>
+					<ul>
+						<li>
+              				<input type="radio" name="question-17-answers" id="question-17-answers-A" value="A" />
+                       		<label for="question-17-answers-A">Buy the first thing you see that you intuitively think they would like</label>
+							<div class="check"><div class="inside"></div></div>
+  						</li>
+  
+  						<li>
+              				<input type="radio" name="question-17-answers" id="question-17-answers-B" value="B" />
+                     	  	<label for="question-17-answers-B">Carefully find just the right thing, after much comparison-shopping</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>
+		
+						<li>
+                  			<input type="radio" name="question-17-answers" id="question-17-answers-C" value="C" />
+                        	<label for="question-17-answers-C">Buy the same special gift you always buy for special people</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>	
+			
+			  			<li>
+       						<input type="radio" name="question-17-answers" id="question-17-answers-D" value="D" />
+                  	     	<label for="question-17-answers-D">Get someone else to buy the gift or just give your friend a gift card</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>
+					</ul>	
+				</div>		
+
+				<!-- Question 18 -->	
+				<div id = "quest18">
+					<div class = "number">Question 18 of 20</div>
+					<h2>What do you do when the phone rings?</h2>
+					<ul>
+						<li>
+           					<input type="radio" name="question-18-answers" id="question-18-answers-A" value="A" />
+                    	    <label for="question-18-answers-A">Answer it immediately and talk at length</label>
+							<div class="check"><div class="inside"></div></div>
+  						</li>
+  
+  						<li>
+                        	<input type="radio" name="question-18-answers" id="question-18-answers-B" value="B" />
+                    		<label for="question-18-answers-B">Look forward to the call, but wait a few rings before answering</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>
+  
+  						<li>
+                    	    <input type="radio" name="question-18-answers" id="question-18-answers-C" value="C" />
+                    	    <label for="question-18-answers-C">Answer and end the call quickly and efficiently</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>
+		
+						<li>
+                  	  		<input type="radio" name="question-18-answers" id="question-18-answers-D" value="D" />
+                	        <label for="question-18-answers-D">Ignore it or text the caller that you can't talk now</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>	
+					</ul>	
+				</div>
+	
+				<!-- Question 19 -->	
+				<div id = "quest19">
+					<div class = "number">Question 19 of 20</div>
+					<h2>What is your favorite type of clothing to wear?</h2>
+					<ul>
+						<li>
+                    	    <input type="radio" name="question-19-answers" id="question-19-answers-A" value="A" />
+                    	    <label for="question-19-answers-A">Something comfortable, practical, and low key</label>
+							<div class="check"><div class="inside"></div></div>
+  						</li>
+  
+  						<li>
+        					<input type="radio" name="question-19-answers" id="question-19-answers-B" value="B" />
+                     	   <label for="question-19-answers-B">A unique ensemble that makes a statement</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>
+  
+  						<li>
+                        	<input type="radio" name="question-19-answers" id="question-19-answers-C" value="C" />
+                        	<label for="question-19-answers-C">An expensive-looking power outfit</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>
+		
+						<li>
+                        	<input type="radio" name="question-19-answers" id="question-19-answers-D" value="D" />
+                   	     	<label for="question-19-answers-D">Something easy-going and nice</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>	
+					</ul>	
+				</div>		
+	
+				<!-- Question 20 -->	
+				<div id = "quest20">
+					<div class = "number">Question 20 of 20</div>
+					<h2>Which genre of fiction do you prefer?</h2>
+					<ul>
+						<li>
+                        	<input type="radio" name="question-20-answers" id="question-20-answers-A" value="A" />
+                    	    <label for="question-20-answers-A">Mystery, documentary, or science fiction</label>
+							<div class="check"><div class="inside"></div></div>
+  						</li>
+  
+  						<li>
+                     	   <input type="radio" name="question-20-answers" id="question-20-answers-B" value="B" />
+                     	   <label for="question-20-answers-B">Feel-good story or romance</label>
+                     	   <div class="check"><div class="inside"></div></div>
+  						</li>
+		
+						<li>
+                        	<input type="radio" name="question-20-answers" id="question-20-answers-C" value="C" />
+                        	<label for="question-20-answers-C">Epic, historical, or action</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>	
+			
+			  			<li>
+      	              		<input type="radio" name="question-20-answers" id="question-20-answers-D" value="D" />
+                       		<label for="question-20-answers-D">Comedy or psychological thriller</label>
+    						<div class="check"><div class="inside"></div></div>
+  						</li>	
+					</ul>	
+				</div>	
+	
+				<button type="button" id="advance" onclick="advanceSlide()"><i class="fa fa-hand-o-right" aria-hidden="true"></i></button>
+				<div id="error">Please select an answer.</div>		
+			</div> <!-- Container -->
+    		<input class ="btn-score" type="submit" onclick = "submit" value="Get Results" />					
+		</form>
+		<script src="../assets/js/jquery.min.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
