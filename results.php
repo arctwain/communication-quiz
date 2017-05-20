@@ -252,7 +252,7 @@
 		</div>
 		</div>
 		<footer>&copy; 2017 Tina Anastopoulos. Content from <a href="https://www.ioaging.org">IOA</a>.</footer>
-		<script src="../assets/js/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="http://rendro.github.io/easy-pie-chart/javascripts/jquery.easy-pie-chart.js"></script>
 		<script>
 			/******* results ********/
